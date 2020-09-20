@@ -57,7 +57,7 @@ const Note = ({ note }) => {
 }
 
 Note.getInitialProps = async ({ query: { id } }) => {
-    const res = await fetch(`http://localhost:3000/api/notes/${id}`)
+    const res = await fetch(`https://notes-app-phi.vercel.app/api/notes/${id}`)
     const { data } = await res.json()
 
     return { note: data }
