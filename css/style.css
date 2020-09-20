@@ -51,7 +51,7 @@ h1 {
     margin: 10px;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 480px) {
     .grid {
       flex-wrap: nowrap;
       flex-direction: column;
