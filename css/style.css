@@ -64,4 +64,9 @@ h1 {
     .grid > div {
         margin: 10px 0;
     }
+    .form-container {
+        width: 100%;
+        margin: 20px 0;
+        padding: 0 10px;
+    }
   }
